@@ -13,9 +13,10 @@
         }
 
         header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
+         color:#333 ;
+     
+            /* color: white; */
+            padding: 10px 0;font-size: 1.5em;
             text-align: center;
         }
 
@@ -23,6 +24,16 @@
             width: 80%;
             margin: auto;
             overflow: hidden;
+            
+        }
+        header .container{
+          
+            display: flex;
+            align-items: center;
+        }
+        header .container img {
+            aspect-ratio: 1;
+            height: 100px;
         }
 
         #showcase {
@@ -43,7 +54,7 @@
 
         h2 {
             color: #333;
-        }
+        }   backgraund
 
         .product-list {
             display: grid;
@@ -61,7 +72,8 @@
         .product img {
             width: 100%;
             height: 200px;
-            object-fit: cover;
+            object-fit: contain;
+            border: 2px solid
         }
 
         footer {
@@ -76,6 +88,7 @@
 <body>
     <header>
         <div class="container">
+            <img src="logo.png" width="100">
             <h1>PRIYA PLASTIC</h1>
         </div>
     </header>
@@ -87,7 +100,7 @@
 
         <section id="address">
             <h2>ADDRESS</h2>
-            <p>KISHORBHAI BABARIYA, <br>
+            <p><B>KISHORBHAI BABARIYA,</B><br>
             SREEJI MARKET 37,38,<br>
             RAJULA, <br>
             CITY:RAJULA, PIN CODE:365560<br>
@@ -105,6 +118,14 @@
                     <img src="Product1.jpeg" alt="PRODUCT NO. 1 ">
                     <h3>PRODUCT</h3>
                     <p>POLYTHENE BAGS</p>
+
+
+                    <div class="product">
+                        <img src="PP BAGS.jpeg" alt="PRODUCT NO. 1 ">
+                        <h3>PRODUCT</h3>
+                        <p>PP  BAGS</p>
+
+
                 </div>
                 <div class="product">
                     <img src="PRODUCT2.jpeg" alt="PRODUCT NO. 2">
